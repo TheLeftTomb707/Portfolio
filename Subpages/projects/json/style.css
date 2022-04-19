@@ -1,0 +1,57 @@
+html {
+    background-color: rgb(87, 87, 87);
+}
+body {
+    color: whitesmoke;
+}
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 70px;
+    width: 90%;
+    margin: auto;
+}
+.title {
+    text-align: center;
+    font-family: Bangers;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.name {
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.address {
+    font-size: 20px;
+    padding: 10px;
+}
+.description {
+    padding: 10px;
+}
+.map {
+    padding: 10px;
+}
+.adicon {
+    width: 40px;
+    background-color: rgb(87, 87, 87);
+}
+.adflex {
+    display: flex;
+    align-items: center;
+}
+.pagecontent {
+    display: flex;
+    gap: 30px;
+}
+.pageinfo {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.back {
+    width:50px;
+    position: absolute;
+    top: 91%;
+    left: 1%;
+}

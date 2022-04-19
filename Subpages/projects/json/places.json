@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Humboldt Redwoods State Park Visitor Center",
+        "address": "Avenue of the Giants, Myers Flat, CA 95554",
+        "description": "The Visitor Center is operated by the Humboldt Redwoods Interpretive Association, and all proceeds benefit efforts to expand the educational and outreach goals of the park. There are numerous visual and hands on educational exhibits, a theater, a library, gift shop, and a friendly volunteer staff to answer questions about the park and area. The Visitor Center is closed on Thanksgiving and Christmas Day.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1535.985880630925!2d-123.90872230972475!3d40.30819911399178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d46239b81a1b25%3A0xc4c2d9817522b889!2sHumboldt%20Redwoods%20State%20Park%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1647895197336!5m2!1sen!2sus"
+    },
+    {
+        "name": "Smithsonian National Air and Space Museum",
+        "address": "600 Independence Ave SW, Washington, DC 20560",
+        "description": "The National Air and Space Museum is a center for research into the history and science of aviation and spaceflight, as well as planetary science and terrestrial geology and geophysics. Almost all space and aircraft on display are originals or the original backup craft.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.587257125863!2d-77.019910817226!3d38.88768406897028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7837b262421%3A0xf8e7c937dd8ce81b!2sSmithsonian%20National%20Air%20and%20Space%20Museum!5e0!3m2!1sen!2sus!4v1647895326545!5m2!1sen!2sus"
+    },
+    {
+        "name": "Historic Jamestowne",
+        "address": "1368 Colonial Pkwy, Jamestown, VA 23081",
+        "description": "Historic Jamestown is the cultural heritage site that was the location of the 1607 James Fort and the later 17th-century town of Jamestown in America. It is located on Jamestown Island, on the James River at Jamestown, Virginia and operated as a partnership between Preservation Virginia and the U.S. National Park Service as part of Colonial National Historical Park.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d632.5971257275219!2d-76.77697132831817!3d37.21125521981546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b061b505ff2043%3A0xe54ebf501449be71!2sHistoric%20Jamestowne!5e0!3m2!1sen!2sus!4v1647895563449!5m2!1sen!2sus"
+    },
+    {
+        "name": "Sequoia Park Zoo",
+        "address": "3414 W St, Eureka, CA 95503",
+        "description": "Sequoia Park Zoo is the oldest zoo in California and one of the smallest accredited zoos in the country. Situated next to the magnificent old-growth redwoods of Sequoia Park, the zoo is truly a jewel in the heart of Eureka.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.775655435843!2d-124.14673987996129!3d40.77545861250253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d3ffbd110c0591%3A0x8ad35cb02fd435f9!2sSequoia%20Park%20Zoo!5e0!3m2!1sen!2sus!4v1647896022110!5m2!1sen!2sus"
+    },
+    {
+        "name": "Carson Mansion",
+        "address": "143 M St, Eureka, CA 95501",
+        "description": "The Carson Mansion is a large Victorian house located in Old Town, Eureka, California. Regarded as one of the premier examples of Queen Anne style architecture in the United States, the house is considered the most grand Victorian home in America.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23475.70735892857!2d-124.1399983358342!3d40.792256020293415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d155794660ec97%3A0x6ab251f0710292b0!2sCarson%20Mansion!5e0!3m2!1sen!2sus!4v1647896634870!5m2!1sen!2sus"
+    },
+    {
+        "name": "Golden Gate Bridge",
+        "address": "Golden Gate Bridge, San Francisco, CA",
+        "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San Francisco, California—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66008.57198025582!2d-122.40842879793013!3d37.87233129206455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586deffffffc3%3A0xcded139783705509!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1647896978760!5m2!1sen!2sus"
+    }
+]

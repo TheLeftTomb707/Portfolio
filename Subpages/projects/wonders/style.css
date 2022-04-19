@@ -1,0 +1,142 @@
+html{
+    width: 90%;
+    margin: auto;
+}
+.container h2{
+    font-size: 28px;
+    text-decoration: underline;
+    letter-spacing: none;
+    word-spacing: 3px;
+    text-shadow: gray 1px 1px;
+    border-radius: 10px;
+}
+.container p{
+    font-size: 16px;
+    line-height: 130%;
+    padding: 0px 20px;
+}
+.h1{
+    background-color: wheat;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.h1 header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+    word-spacing: 3px;
+    text-shadow: gray 1px 1px;
+    border-radius: 10px;
+}
+.h1 p{
+    text-align: center;
+}
+.christ{
+    background-color: wheat;
+    padding: 10px;
+}
+.christ h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.christ p{
+    text-align: center;
+}
+.petra{
+    background-color: wheat;
+    padding: 10px;
+}
+.petra h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.petra p{
+    text-align: center;
+}
+.machu{
+    background-color: wheat;
+    padding: 10px;
+}
+.machu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.machu p{
+    text-align: center;
+}
+.wall{
+    background-color: wheat;
+    padding: 10px;
+}
+.wall h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.wall p{
+    text-align: center;
+}
+.pyramid{
+    background-color: wheat;
+    padding: 10px;
+}
+.pyramid h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.pyramid p{
+    text-align: center;
+}
+.itza{
+    background-color: wheat;
+    padding: 10px;
+}
+.itza h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.itza p{
+    text-align: center;
+}
+.reef{
+    background-color: wheat;
+    padding: 10px;
+}
+.reef h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.reef p{
+    text-align: center;
+}
+.foot{
+    background-color: wheat;
+    padding: 10px;
+}
+.foot footer{
+    padding: 0px 20px;
+}

@@ -1,0 +1,161 @@
+body{
+    background-image: url("images/rocket.jpg");
+    background-position-x: center;
+    background-size: 100vw 78vh;
+    background-repeat: no-repeat;
+    background-color: rgb(29, 29, 29);
+}
+.header{
+    background-color: rgba(102, 102, 102, 0.7);
+    border-color: rgb(0, 0, 0, 0.7);
+    border-style: solid;
+    border-radius: 45px;
+}
+.titles{
+    margin: 0px 20px;
+}
+.titles h1{
+    float: left;
+    font-size: 3vw;
+    font-family: 'Antic Slab', serif;
+    color: white;
+}
+.header{
+    background-color: rgba(29, 29, 29, 0.7);
+    border-radius: 50px;
+    height: 13vh;
+}
+.head{
+    background-color: rgba(29, 29, 29, 0.7);
+    border-radius: 50px;
+    height: 13vh;
+}
+.head img{
+    width: 15vw;
+    height: 12vh;
+    margin-top: .4vh;
+    margin-left: 1vw;
+    float: left;
+}
+.nav{
+    float: right;
+    margin: 2.3vh 2.3vw;
+    font-size: 3vw;
+    color: white;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+    font-family: oswald;
+    text-shadow: 2px 2px rgb(0, 90, 35);
+}
+.title{
+    background-color: rgba(29, 29, 29, 0.7);
+    width: 92%;
+    margin-top: 70vh;
+    margin-left: 3vw;
+    padding-left: 1.5vw;
+}
+.title h3{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-family: oswald;
+    text-shadow: 2px 2px rgb(0, 90, 35);
+}
+.esports{
+    background-color: rgba(29, 29, 29, 0.7);
+    width: 12%;
+    margin-top: 49vh;
+    margin-left: 3vw;
+    padding-left: 1.5vw;
+}
+.esports h3{
+    font-size: 4vw;
+    color: white;
+    font-family: oswald;
+}
+.players{
+    background-color: rgba(29, 29, 29, 0.7);
+    width: 12%;
+    margin-top: 49vh;
+    margin-left: 3vw;
+    padding-left: 1.5vw;
+}
+.players h3{
+    font-size: 4vw;
+    color: white;
+    font-family: oswald;
+}
+.line{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+}
+.desc{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.desc h2{
+    font-family: oswald;
+    font-size: 3vw;
+    text-shadow: 2px 2px rgb(0, 90, 35);
+}
+.desc p{
+    font-family: oswald;
+    font-size: 1.5vw;
+}
+.mech{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.mech h2{
+    font-family: oswald;
+    font-size: 3vw;
+    text-shadow: 2px 2px rgb(0, 90, 35)
+}
+.mech p{
+    font-family: oswald;
+    font-size: 1.5vw;
+}
+.mech img{
+    width: 40vw;
+    height: 40vh;
+}
+.hist{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.hist h2{
+    font-family: oswald;
+    font-size: 3vw;
+    text-shadow: 2px 2px rgb(0, 90, 35)
+}
+.hist p{
+    font-family: oswald;
+    font-size: 1.5vw;
+}
+.hist img{
+    width: 40vw;
+    height: 40vh;
+}
+.teams{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.teams h2{
+    font-size: 4vw;
+}
+.teams h3{
+    font-size: 2.5vw;
+}

@@ -1,0 +1,127 @@
+html {
+    width: 50%;
+    margin: auto;
+    background-color: lightgrey;
+}
+.page {
+    background-color: rgb(158, 158, 158);
+}
+.display {
+    background-color: black;
+    border: white solid 2px;
+}
+.display h3 {
+    text-align: right;
+    color: white;
+}
+.textview {
+    width: 98.9%;
+    height: 4vw;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border: white solid 2px;
+}
+button {
+    padding: 26px;
+    font-size: 16px;
+    size: 100px;
+    margin: 5px;
+    border: black solid 2px;
+    border-radius: 180px;
+}
+button:hover {
+    background-color: lightgrey;
+}
+.base {
+    display: grid;
+    background-color: gray;
+    padding: 20px;
+    grid: 
+    "pi sine cosine tangent"
+    "clear parenth percent divide"
+    "one two three multiply"
+    "four five six minus"
+    "seven eight nine add"
+    "period zero back equal";
+}
+.pi {
+    grid-area: pi;
+}
+.sine {
+    grid-area: sine;
+}
+.cosine {
+    grid-area: cosine;
+}
+.tangent {
+    grid-area: tangent;
+}
+.clear {
+    grid-area: clear;
+}
+.clear:hover {
+    background-color: rgb(255, 150, 150);
+}
+.parenthesis {
+    grid-area: parenth;
+    display: flex;
+    width: 100%;
+}
+.percent {
+    grid-area: percent;
+}
+.divide {
+    grid-area: divide;
+}
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.multiply {
+    grid-area: multiply;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.minus {
+    grid-area: minus;
+}
+.seven {
+    grid-area: seven;
+}
+.eight {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+.add {
+    grid-area: add;
+}
+.zero {
+    grid-area: zero;
+}
+.period {
+    grid-area: period;
+}
+.back {
+    grid-area: back;
+}
+.equal {
+    grid-area: equal;
+}
+.equal:hover {
+    background-color: rgb(86, 207, 86);
+}

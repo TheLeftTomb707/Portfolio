@@ -1,0 +1,14 @@
+html {
+    width: 100%;
+    margin: auto;
+}
+.content {
+    display: flex;
+    gap: 10px;
+}
+#canvas {
+    border: solid black 2px;
+}
+#svg {
+    border: black solid 2px;
+}

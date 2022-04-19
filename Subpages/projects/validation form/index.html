@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Info Page</title>
+</head>
+<body>
+    <div class="page">
+        <fieldset>
+            <legend>Personal Detail</legend>
+            <div class="form">
+                <form name="registration" onSubmit=" return validation()">
+                    <label for="fname">First Name:<br></label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                    <label for="lname">Last Name:<br></label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                    <label for="gender">Gender:<br></label>
+                    <select id="gender" name="gender">
+                        <option value="" selected hidden>Select</option>
+                        <option value="male" >Male</option>
+                        <option value="female" >Female</option>
+                        <option value="other" id="eval">Other</option>
+                    </select><br>
+                    <label for="phone">Mobile Number:<br></label>
+                    <input type="tel" id="phone" name="phone" placeholder="Mobile Number"><br><br>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+        </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="page">
+        <fieldset>
+            <legend>MTA Quiz</legend>
+            <div class="form1" name="form1">
+                <label for="family">What are the 3 languages in the HTML5 family (Choose 3):<br></label>
+                    <div id="familys1">
+                        <input type="checkbox" id="family1" name="family1" value="HTML">
+                        <label for="family1">HTML Markup<br></label>
+                    </div>
+                    <div id="familys2">
+                        <input type="checkbox" id="family2" name="family2" value="Java">
+                        <label for="family2">Java<br></label>
+                    </div>
+                    <div id="familys3">
+                        <input type="checkbox" id="family3" name="family3" value="Laravel">
+                        <label for="family3">Laravel<br></label>
+                    </div>
+                    <div id="familys4">
+                        <input type="checkbox" id="family4" name="family4" value="CSS">
+                        <label for="family4">CSS<br></label>
+                    </div>
+                    <div id="familys5">
+                        <input type="checkbox" id="family5" name="family5" value="JavaScript">
+                        <label for="family5">JavaScript</label>
+                    </div>
+                    <br>
+                <label for="Metro">When running an HTML5 app in Windows Metro Style UI, which process hosts the application:<br></label>
+                <div id="Metros1">
+                    <input type="radio" id="Metro1" name="Metro" value="Metro1">
+                    <label for="Metro1">iexplorer.exe<br></label>
+                </div>
+                <div id="Metros2">
+                    <input type="radio" id="Metro2" name="Metro" value="Metro2">
+                    <label for="Metro2">explorer.exe<br></label>
+                </div>
+                <div id="Metros3">
+                    <input type="radio" id="Metro3" name="Metro" value="Metro3">
+                    <label for="Metro3">svchost.exe<br></label>
+                </div>
+                <div id="Metros4">
+                    <input type="radio" id="Metro4" name="Metro" value="Metro4">
+                    <label for="Metro4">WWAHost.exe</label>
+                </div>
+                <br>
+                <label for="storage">What is the primary difference between <em>localStorage</em> and <em>sessionStorage</em> in HTML5:<br></label>
+                <div id="storages1">
+                    <input type="radio" id="storage1" name="storage" value="storage1">
+                    <label for="storage1">localStorage applies to only one user, sessionStorage applies to all users of the application<br></label>
+                </div>
+                <div id="storages2">
+                    <input type="radio" id="storage2" name="storage" value="storage2">
+                    <label for="storage2">localStorage applies to only one user, sessionStorage applies to all concurrent users<br></label>
+                </div>
+                <div id="storages3">
+                    <input type="radio" id="storage3" name="storage" value="storage3">
+                    <label for="storage3">localStorage is stored without a time limit, whereas sessionStorage is only available within the user's current session<br></label>
+                </div>
+                <div id="storages4">
+                    <input type="radio" id="storage4" name="storage" value="storage4">
+                    <label for="storage4">localStorage is stored on the server, sessionStorage is stored on the user's local machine as a cookie.</label>
+                </div>
+                <br>
+                <label for="package">Application packaging is the process of grouping all files relevant to an application into a single package. What kind of tool is used to this:<br></label>
+                <div id="packages1">
+                    <input type="radio" id="package1" name="package" value="package1">
+                    <label for="package1">JavaScript<br></label>
+                </div>
+                <div id="packages2">
+                    <input type="radio" id="package2" name="package" value="package2">
+                    <label for="package2">App Development environment<br></label>
+                </div>
+                <div id="packages3">
+                    <input type="radio" id="package3" name="package" value="package3">
+                    <label for="package3">This is a native feature of HTML5<br></label>
+                </div>
+                <div id="packages4">
+                    <input type="radio" id="package4" name="package" value="package4">
+                    <label for="package4">WWAHost.exe</label>
+                </div>
+                <br>
+                <label for="state">What new feature in HTML5 allows you to manage the state of a session:<br></label>
+                <div id="states1">
+                    <input type="radio" id="state1" name="state" value="state1">
+                    <label for="state1">Manage State Tool<br></label>
+                </div>
+                <div id="states2">
+                    <input type="radio" id="state2" name="state" value="state2">
+                    <label for="state2">Session Tracker<br></label>
+                </div>
+                <div id="states3">
+                    <input type="radio" id="state3" name="state" value="state3">
+                    <label for="state3">Session Navigator<br></label>
+                </div>
+                <div id="states4">
+                    <input type="radio" id="state4" name="state" value="state4">
+                    <label for="state4">History API</label>
+                </div>
+                <br>
+                <button onclick="verify()" id="submitbtn">Submit</button>
+            </div>
+        </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

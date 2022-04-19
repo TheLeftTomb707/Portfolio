@@ -1,0 +1,53 @@
+html {
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgb(201, 201, 201);
+}
+.page {
+    background-color:wheat;
+    padding: 10px;
+    border: black solid 1px;
+}
+fieldset {
+    border: solid black 2px;
+}
+#fname {
+    font-size: 16px;
+    width: 99%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+#lname {
+    font-size: 16px;
+    width: 99%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+#gender {
+    font-size: 16px;
+    width: 100%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+#phone {
+    font-size: 16px;
+    width: 99%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+#submit {
+    width: 100%;
+    font-size: 16px;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+select, input {
+    margin: 5px 0px;
+    padding: 7px 3px;
+}
+label, legend {
+    font-size: 18px;
+    font-family: permanent marker;
+}

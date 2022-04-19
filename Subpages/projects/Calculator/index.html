@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="page">
+        <form name="display">
+            <input name="textview" class="textview">
+        </form>
+        <div class="base">
+            <button onclick="insert('3.14')" class="pi">&#x3C0;</button>
+            <button onclick="document.display.textview.value = Math.sin(document.display.textview.value)" class="sine">sin</button>
+            <button onclick="document.display.textview.value = Math.cos(document.display.textview.value)" class="cosine">cos</button>
+            <button onclick="document.display.textview.value = Math.tan(document.display.textview.value)" class="tangent">tan</button>
+            <button onclick="document.display.textview.value = ''" class="clear">AC</button>
+            <div class="parenthesis">
+            <button onclick="insert('(')" style="width: 45%; padding: 10px;">(</button>
+            <button onclick="insert(')')" style="width: 45%; padding: 10px;">)</button>
+            </div>
+            <button onclick="insert('/100')" class="percent">%</button>
+            <button onclick="insert('/')" class="divide">/</button>
+            <button onclick="insert('1')" class="one">1</button>
+            <button onclick="insert('2')" class="two">2</button>
+            <button onclick="insert('3')" class="three">3</button>
+            <button onclick="insert('*')" class="multiply">*</button>
+            <button onclick="insert('4')" class="four">4</button>
+            <button onclick="insert('5')" class="five">5</button>
+            <button onclick="insert('6')" class="six">6</button>
+            <button onclick="insert('-')" class="minus">-</button>
+            <button onclick="insert('7')" class="seven">7</button>
+            <button onclick="insert('8')" class="eight">8</button>
+            <button onclick="insert('9')" class="nine">9</button>
+            <button onclick="insert('+')" class="add">+</button>
+            <button onclick="insert('0')" class="zero">0</button>
+            <button onclick="insert('.')" class="period">.</button>
+            <button onclick="backspace()" class="back">&#x21E4;</button>
+            <button onclick="equal()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

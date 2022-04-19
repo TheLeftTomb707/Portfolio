@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Line</title>
+</head>
+
+<body>
+    <div class="content">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <svg id="svg" width="500" height="500">
+            <ellipse cx="250" cy="120" rx="85" ry="65" fill="blanchedalmond" />
+            <path d="M 334 110 A 60 40 0 1 0 166 110 100 40 0 0 1 334 110 z" stroke="black" stroke-width="0"
+                fill="darkcyan" />
+            <path d="M 166 110 q 90 -40 168 0" stroke="yellow" stroke-width="4" fill="none" />
+            <ellipse cx="250" cy="55" rx="20" ry="7" fill="yellow" />
+            <ellipse cx="250" cy="110" rx="14" ry="17" stroke="black" stroke-width="0.01" fill="white"
+                transform="skewX(7.3)" />
+            <ellipse cx="250" cy="110" rx="14" ry="17" stroke="black" stroke-width="0.01" fill="white"
+                transform="skewX(-7.3)" />
+            <circle cx="240" cy="110" r="1.5" stroke="black" stroke-width="3" fill="black" />
+            <circle cx="260" cy="110" r="1.5" stroke="black" stroke-width="3" fill="black" />
+            <polygon points="230,145 270,148 260,165 240,160"
+                style="fill:black;stroke:rgba(0, 0, 0, 0.308);stroke-width:3" />
+            <rect x="257" y="148" width="8.3" height="4" style="fill:white;stroke-width:0;"
+                transform="rotate(6, 250, 150)" />
+            <rect x="248" y="147.9" width="8.3" height="4" style="fill:white;stroke-width:0;"
+                transform="rotate(6, 250, 150)" />
+            <rect x="239" y="147.9" width="8.3" height="4" style="fill:white;stroke-width:0;"
+                transform="rotate(6, 250, 150)" />
+            <path d="M 225 165 q 30 8 46 0" stroke="rgba(0, 0, 0, 0.458)" stroke-width="1" fill="none" />
+            <path d="M 176 148 q 76 65 147 0" stroke="rgba(0, 0, 0, 0.75)" stroke-width="1" fill="none" />
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
