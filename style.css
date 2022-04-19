@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background-color: black;
+}
+body {
+    background-color: rgb(71, 71, 71);
+}
+.navbar {
+    display: flex;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(48, 48, 48);
+    border-bottom: rgb(20, 20, 20) solid 10px;
+}
+.navbar h3 {
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: roboto condensed;
+    margin: 7px 0px 0px 20px;
+}
+.navclick {
+    display: flex;
+    justify-content: end;
+    margin: 0px 20px 0px auto;
+}
+.navclick a {
+    margin: 5px 10px 10px 10px;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-family: roboto condensed;
+    text-decoration: none;
+    color: whitesmoke;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.navclick a:hover {
+    transform: scale(1.15);
+}
+.content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.img {
+
+}
+.img img {
+    width: 950px;
+}
+.name {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0, 0.45);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 6vw;
+    font-family: roboto condensed;
+}
+.text {
+    width: 350px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: roboto condensed;
+}
+.westmec {
+    color: gray;
+}
+.westmec:hover {
+    color: red;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.buttons a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: roboto condensed;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(36, 36, 36);
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
+.but1:hover {
+    transform: scale(1.15);
+}
+.but2:hover {
+    transform: scale(1.15);
+}
+.subtitle {
+
+}
+.subtitle h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 70px;
+    font-family: roboto condensed;
+}
+.subcontent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 150px;
+    margin: auto;
+    width: 80%;
+}
+.subcontent a {
+    text-decoration: none;
+}
+.subcontent a:hover {
+    transform: scale(1.08);
+}
+.subcontent a img {
+    width: 300px;
+    height: 300px;
+}
+.subcontent a p {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: roboto condensed;
+    text-align: center;
+    font-size: 24px;
+}
