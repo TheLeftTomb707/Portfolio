@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../../bootstrap/js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: -100px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img src="../../images/lit-lighters.png" alt="Lit-Lighters"
+              width="100px" height="35px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../catalog.html">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li class="droptitle">Premium Lighters</li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="gold.html">Gold lighter</a></li>
+                  <li><a class="dropdown-item active" href="model.html">Model Lighter</a></li>
+                  <li><a class="dropdown-item" href="palladium.html">Palladium Lighter</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a href="#"><img class="cart" src="../../images/cart.jpg" width="35px"></a>
+          </div>
+        </div>
+      </nav>
+      <div class="prodcontent">
+        <div class="prodimage">
+          <div class="img-magnifier-container">
+            <img id="myimage" src="../../images/pre2.png" width="500" height="500" alt="Girl">
+          </div>
+        </div>
+        <div class="prodinfo">
+          <h6 class="prodcomptitle">LIT Lighters</h6>
+          <h3 class="prodtitle">High Class Model Lighter</h3><br><br>
+          <p class="prodprice"><span class="orgprice">$499.99</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong
+              class="newprice">$449.99</strong></p><br>
+          <p class="discprice">&nbsp;&nbsp;&nbsp;&nbsp;You Save $50!</p>
+          <button class="prodbuy" onclick="addcart()">Buy Now</button>
+          <div class="proddesc">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Product Description
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><b>Height x Width:</b><br>
+                    2.25" x 0.5"<br><br>
+                    <b>Weight:</b><br>
+                    1.7 oz<br><br>
+                    <b>Materials:</b><br>
+                    Sustainable plastic & stainless steel
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Shipping & Returns
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><b>Shipping Price:</b><br>
+                  $9.99<br><br>
+                  <b>Shipping Weight:</b><br>
+                  3 oz</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="../../script.js"></script>
+</body>
+</html>

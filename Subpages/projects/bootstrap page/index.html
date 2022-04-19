@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Lit Lighters</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/lit-lighters.png" alt="Lit-Lighters" width="100px" height="35px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subpages/catalog.html">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subpages/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li class="droptitle">Premium Lighters</li>
+                            <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="subpages/product pages/gold.html">Gold lighter</a></li>
+                          <li><a class="dropdown-item" href="subpages/product pages/model.html">Model Lighter</a></li>
+                          <li><a class="dropdown-item" href="subpages/product pages/palladium.html">Palladium Lighter</a></li>
+                        </ul>
+                      </li>
+                </ul>
+                <a href="#"><img class="cart" src="images/cart.jpg" width="35px"></a>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/lighter1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/lighter2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/lighter3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="line">&nbsp;</div>
+    <div class="cards">
+        <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+            <img src="images/premium.png" class="card-img-top" alt="Premium">
+            <div class="card-body">
+                <h5 class="card-title">Premium Lighters</h5>
+                <p class="card-text">Buy high quality, premium lighters <b>right now</b></p>
+                <a href="subpages/catalog.html" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+            <img src="images/everyday.png" class="card-img-top" alt="everyday use">
+            <div class="card-body">
+                <h5 class="card-title">Everyday Use</h5>
+                <p class="card-text">Choose from a great selection of cheap, everday use lighters</p>
+                <a href="subpages/catalog.html" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+            <img src="images/insert.png" class="card-img-top" alt="Insert">
+            <div class="card-body">
+                <h5 class="card-title">Accessories/Inserts</h5>
+                <p class="card-text">Get brand new inserts, flints, & wicks for all your lighter needs</p>
+                <a href="subpages/catalog.html" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark">
+        <img src="images/lit-lighters.png" class="footimg" alt="LIT Lighters">
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
